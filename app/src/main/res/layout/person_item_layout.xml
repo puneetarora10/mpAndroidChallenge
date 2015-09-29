@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="80dip">
+
+    <ImageView
+        android:id="@+id/photoImageView"
+        android:layout_width="110dip"
+        android:layout_height="70dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginStart="10dip"
+        android:layout_marginTop="10dip"
+        android:layout_toEndOf="@+id/photoImageView"
+        android:layout_toRightOf="@id/photoImageView"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/locationLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameTextView"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginStart="10dip"
+        android:layout_toEndOf="@+id/photoImageView"
+        android:layout_toRightOf="@id/photoImageView"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="@string/location_label"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/locationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameTextView"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginStart="10dip"
+        android:layout_toEndOf="@+id/locationLabel"
+        android:layout_toRightOf="@id/locationLabel"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/phoneLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/locationLabel"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginStart="10dip"
+        android:layout_toEndOf="@+id/photoImageView"
+        android:layout_toRightOf="@id/photoImageView"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="@string/phone_label"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/phoneTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/locationTextView"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginStart="10dip"
+        android:layout_toEndOf="@+id/phoneLabel"
+        android:layout_toRightOf="@id/phoneLabel"
+        android:autoLink="phone"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/emailLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phoneLabel"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginStart="10dip"
+        android:layout_toEndOf="@+id/photoImageView"
+        android:layout_toRightOf="@id/photoImageView"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="@string/email_label"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/emailTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phoneTextView"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginStart="10dip"
+        android:layout_toEndOf="@+id/emailLabel"
+        android:layout_toRightOf="@id/emailLabel"
+        android:autoLink="email"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textSize="12sp" />
+</RelativeLayout>

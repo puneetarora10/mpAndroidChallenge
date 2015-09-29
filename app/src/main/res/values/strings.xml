@@ -3,4 +3,8 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+    <string name="location_label">location:</string>
+    <string name="phone_label">phone:</string>
+    <string name="email_label">email:</string>
 </resources>
