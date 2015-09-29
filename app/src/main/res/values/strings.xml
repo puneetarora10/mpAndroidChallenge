@@ -7,4 +7,6 @@
     <string name="location_label">location:</string>
     <string name="phone_label">phone:</string>
     <string name="email_label">email:</string>
+
+    <string name="photoImageViewDescription">Profile Photo</string>
 </resources>
